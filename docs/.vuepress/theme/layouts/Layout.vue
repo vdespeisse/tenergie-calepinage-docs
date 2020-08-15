@@ -91,7 +91,6 @@ export default {
     },
 
     sidebarItems () {
-      window.page = this.$page
       return resolveSidebarItems(
         this.$page,
         this.$page.regularPath,
