@@ -55,7 +55,6 @@ export default {
 }
 
 function renderLink (h, to, text, active) {
-  console.log(to, text)
   return h('router-link', {
     props: {
       to,
@@ -72,7 +71,6 @@ function renderLink (h, to, text, active) {
 function renderChildren (h, children, path, route, maxDepth, depth = 1) {
   if (!children || depth > maxDepth) return null
   return h('ul', { class: 'sidebar-sub-headers' }, children.map(c => {
-    console.log(c)
     const active = isActive(route, path + '#' + c.slug)
     // HACK
     const unslug = (title) => {

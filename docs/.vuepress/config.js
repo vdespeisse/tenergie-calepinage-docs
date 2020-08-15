@@ -53,7 +53,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'how_to',
+            'hotkeys',
+            'videos'
           ]
         }
       ],
@@ -65,6 +67,8 @@ module.exports = {
             '',
             'icons',
             'project_data',
+            'module_data',
+            'translation'
           ]
         }
       ],

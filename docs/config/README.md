@@ -1,4 +1,4 @@
-# Description
+# Introduction
 
 Tous les fichiers sont au format JSON.
 
