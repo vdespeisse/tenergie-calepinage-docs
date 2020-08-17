@@ -9,9 +9,19 @@ Liste des icônes à placer sur la map.
 
 Chemin de l'image de l'icône, peut être une url on un chemin local.
 
-<!-- Exemples:
- - `assets/icons/citerne.png`
- - `https://developers.google.com/maps/documentation/javascript/examples/full/images/parking_lot_maps.png` -->
+Exemples:
+```json
+// chemin local
+{
+  "path": "assets/icons/citerne.png"
+  ...
+}
+// Url image externe
+{
+  "path": "https://developers.google.com/maps/documentation/javascript/examples/full/images/parking_lot_maps.png",
+  ...
+}
+```
 ## name
 - Type: `string`
 - Default: `[icon_id]`

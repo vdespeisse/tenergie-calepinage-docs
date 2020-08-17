@@ -89,7 +89,6 @@ export default {
         && this.sidebarItems.length
       )
     },
-
     sidebarItems () {
       return resolveSidebarItems(
         this.$page,
